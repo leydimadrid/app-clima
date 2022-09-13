@@ -44,7 +44,7 @@ export const WeatherContainer = ({
   }, [fetchedData]);
 
   return (
-    <main className="w-96 rounded-3xl bg-gradient-to-b from-violet-700 to-violet-600 shadow-lg">
+    <main className="w-96 rounded-3xl bg-gradient-to-b from-violet-500 to-violet-700 shadow-xl mt-24">
       {error === "" ? (<div className="flex w-full items-center flex-col p-8">
         <Location data={weather} />
         <DegreeSection data={weather} />

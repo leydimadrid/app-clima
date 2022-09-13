@@ -11,7 +11,7 @@ export const DegreeSection = ({
         <span className="text-yellow-400" id="temperature">
           {temperature}
         </span>
-        ºC
+        °C
       </section>
       <section>
         <img id="iconImg" src={icon} />

@@ -9,12 +9,7 @@
 }
 
 body {
-  background: rgb(211, 210, 240);
-  background: linear-gradient(
-    0deg,
-    rgba(211, 210, 240, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background-color: white;
 }
 
 input {
@@ -22,14 +17,15 @@ input {
   width: 260px;
   height: 33px;
   outline: none;
-  border: 1px solid #9bf;
-  border-radius: 5px;
-  background-color: #eff;
+  border: 2px solid rgb(130, 88, 197);
+  border-radius: 100px;
+  background-color: rgb(255, 255, 255);
   padding: 12px;
   font-size: 15px;
   color: #444;
   top: 5vh;
   transform: translate(-50%, -50%);
+  margin-top: 45px;
 }
 
 table {
