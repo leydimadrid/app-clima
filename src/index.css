@@ -1,0 +1,48 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(211, 210, 240);
+  background: linear-gradient(
+    0deg,
+    rgba(211, 210, 240, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+input {
+  position: absolute;
+  width: 260px;
+  height: 33px;
+  outline: none;
+  border: 1px solid #9bf;
+  border-radius: 5px;
+  background-color: #eff;
+  padding: 12px;
+  font-size: 15px;
+  color: #444;
+  top: 5vh;
+  transform: translate(-50%, -50%);
+}
+
+table {
+  color: #eff;
+  width: 210px;
+  font-size: 17px;
+}
+
+td {
+  padding: 3px;
+  text-align: left;
+}
+
+td {
+  width: 79px;
+}
